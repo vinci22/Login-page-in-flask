@@ -8,7 +8,7 @@ app = fk(__name__)
 #
 @app.route('/')
 def Register()-> str :
-   return render_template ('Log.html',Tittlepage='Loggin')
+   return render_template ('Loggin.html',Tittlepage='Loggin')
 
 if __name__ == '__main__':
    
