@@ -4,13 +4,13 @@ simplist page loggin
 :page_facing_up:
 :page_facing_up:
  
-#Git Clone
+# Git Clone
 git clone https://github.com/vinci22/Login-page-in-flask.git
 
-#Change Directory 
+# Change Directory 
 cd Login-page-in-flask
 
-#NOTE: Install Virtualenv 
+# NOTE: Install Virtualenv 
 pip install virtualenv
 
 virtualenv venv
@@ -18,13 +18,13 @@ virtualenv venv
 ### Initialize the virtualenv 
 source venv/bin/activate
 
-#Export the app variable 
+# Export the app variable 
 export FLASJ_APP=main.py
 by default the log page be in debuge mode 
 
-#Run 
+# Run 
 flask run 
 
-#VIEW 
+# VIEW 
 
 
