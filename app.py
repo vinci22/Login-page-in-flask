@@ -5,7 +5,6 @@ from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 
 app = fk(__name__)
-#
 @app.route('/')
 def Register()-> str :
    return render_template ('Loggin.html',Tittlepage='Loggin')

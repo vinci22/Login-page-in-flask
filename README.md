@@ -1,3 +1,8 @@
+
+# VIEW 
+
+[This is the view](./Descargas/LOG.png)
+
 # Login-page-in-flask
 A loggin page develop with framework flask
 simplist page loggin 
@@ -25,6 +30,6 @@ by default the log page be in debuge mode
 # Run 
 flask run 
 
-# VIEW 
+
 
 
