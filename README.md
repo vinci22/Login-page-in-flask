@@ -1,7 +1,7 @@
 
 # VIEW 
 
-[This is the view](./Descargas/LOG.png)
+![This is the view](./Descargas/LOG.png)
 
 # Login-page-in-flask
 A loggin page develop with framework flask
