@@ -1,15 +1,22 @@
 from logging import debug
 from typing import List
-from flask import Flask as fk 
+from flask import Flask as fk, request 
 from flask import Flask, render_template
-from flask_bootstrap import Bootstrap
+from Config.config import edit_route
+import urllib 
 
-app = fk(__name__)
-#
+
+
+app = fk(__name__,)
 @app.route('/')
 def Register()-> str :
    return render_template ('Loggin.html',Tittlepage='Loggin')
 
+@app.route('/users')
+def getuser():
+   user = edit_route("users")
+   return user
+
 if __name__ == '__main__':
    
-   app.run(debug=True)
+   app.run(debug=True,port=8001)
