@@ -7,7 +7,7 @@ import urllib
 
 
 
-app = fk(__name__,)
+app = fk(__name__)
 @app.route('/')
 def Register()-> str :
    return render_template ('Loggin.html',Tittlepage='Loggin')
@@ -16,7 +16,3 @@ def Register()-> str :
 def getuser():
    user = edit_route("users")
    return user
-
-if __name__ == '__main__':
-   
-   app.run(debug=True,port=8001)
