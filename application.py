@@ -1,6 +1,9 @@
-
-from flask import Flask as fk
+from logging import debug
+from typing import List
+from flask import Flask as fk, request 
 from flask import Flask, render_template
+import urllib 
+
 
 
 application = fk(__name__)
