@@ -1,5 +1,5 @@
 
-from flask import Flask as fk, request 
+from flask import Flask as fk
 from flask import Flask, render_template
 
 
